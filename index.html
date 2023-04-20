@@ -15,10 +15,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="styles.css" />
+
 </head>
 
 <body>
-  
+
   <header>
     <nav class="navbar header-page mb-0 navbar-fixed-top">
       <div class="container">
@@ -30,7 +31,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h2 class="header-logo">AX<span class="header-logo-span">IT</span></h2>
+          <a href="/">
+            <h2 class="header-logo">AX<span class="header-logo-span">IT</span></h2>
+          </a>
+
         </div>
         <!--/.nav-collapse -->
         <div id="navbar" class="collapse navbar-collapse navbar-right">
@@ -38,7 +42,7 @@
             <li><a href="#features">Features</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#review">Reviews</a></li>
+            <li><a href="#reviews">Reviews</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -46,7 +50,7 @@
     </nav>
   </header>
   <!-- section home started -->
-  <section class="home-container">
+  <section class="home-container" id="features">
     <div class="container">
       <div class="home-content content">
         <div class="home-text">
@@ -74,7 +78,7 @@
   </section>
 
   <!-- section-tabs effect -->
-  <section class="tabs-container">
+  <section class="tabs-container" id="about">
     <div class="container">
       <div class="content">
 
@@ -97,7 +101,7 @@
             <div class="row">
               <div class="col-md-6 text-block vertical-middle">
                 <h5>Tabs with sort transitioning effect.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
                   Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
                 </p>
@@ -115,7 +119,7 @@
             <div class="row">
               <div class="col-md-6 text-block vertical-middle">
                 <h5>Tabs with sort transitioning effect.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
                   Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
                 </p>
@@ -132,7 +136,7 @@
             <div class="row">
               <div class="col-md-6 text-block vertical-middle">
                 <h5>Tabs with sort transitioning effect.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
                   Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
                 </p>
@@ -184,8 +188,8 @@
               <p class="sublist-box-par">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                 Proin gravida
-            dolor
-            sit amet lacus accumsan et viverra justo commodo.
+                dolor
+                sit amet lacus accumsan et viverra justo commodo.
               </p>
             </div>
           </div>
@@ -220,7 +224,7 @@
 
   </section>
   <!-- section-awesome -->
-  <section class="awesome-container">
+  <section class="awesome-container" id="reviews">
     <div class="container">
       <div class="awesome-content content">
         <h2 class="awesome-heading">Why this is awesome</h2>
@@ -261,7 +265,7 @@
   <!-- section design -->
   <section class="design-container ">
     <div class="container">
-      <div class="overlay"></div>
+
       <div class="design-content content">
         <h2 class="design-heading">Stylish axure design</h2>
         <div class="design-line"></div>
@@ -329,6 +333,7 @@
     </div>
 
   </footer>
+  <script src="./app.js"></script>
 </body>
 
 </html>

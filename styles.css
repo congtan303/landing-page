@@ -104,7 +104,7 @@ header .navbar-collapse ul li {
 	position: relative;
 	background-image: url(./images/background-main.png);
 	background-size: cover;
-    /* background-position: 50% 26%; */
+    background-position: 50% 50%;
 	background-color: black;
 }
 
@@ -133,6 +133,7 @@ header .navbar-collapse ul li {
 .home-heading {
 	font-size: 3.5rem;
 	margin-bottom: 10px;
+	font-weight: 600;
 }
 .home-heading-span {
 	color: var(--color-primary);
@@ -555,10 +556,10 @@ header .navbar-collapse ul li {
 /* reponsive */
 @media screen and (min-width: 1200px) {
 	.home-heading2{
-		width: 78%;
+		width: 82%;
 	}
 	.home-par{
-		width: 78%;
+		width: 76%;
 	}
 }
 @media screen and (max-width: 992px) {

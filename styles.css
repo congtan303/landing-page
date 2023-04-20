@@ -489,10 +489,9 @@ header .navbar-collapse ul li {
 	z-index: 10;
 }
 .design-container {
-	background-image: url('images/bg2.jpg');
+	background-image: url('images/mini_section.png');
 	background-size: cover;
-	background-position: 50% 50%;
-	position: relative;
+	background-color: black;
 }
 .design-heading {
 	color: white;

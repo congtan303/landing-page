@@ -608,6 +608,9 @@ header .navbar-collapse ul li {
 	}
 }
 @media screen and (max-width: 768px) {
+	.tab-content .row{
+		padding: 0;
+	}
 	.header-logo{
 		margin: 10px 36px;
 	}
@@ -654,6 +657,9 @@ header .navbar-collapse ul li {
 	}
 }
 @media screen and (max-width: 600px) {
+	.home-form-container{
+		margin: 0 auto;
+	}
 	.home-content,
 	.social-content,
 	.picture-content,

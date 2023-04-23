@@ -490,8 +490,6 @@ header .navbar-collapse ul li {
 /* awesome section */
 
 .awesome-content,
-.pricing-content,
-.testimonials-content,
 .design-content,
 .contact-content {
 	padding: 70px 0px;
@@ -501,8 +499,6 @@ header .navbar-collapse ul li {
 }
 
 .awesome-heading,
-.pricing-heading,
-.testimonials-heading,
 .design-heading,
 .contact-heading {
 	text-align: center;
@@ -512,8 +508,6 @@ header .navbar-collapse ul li {
 }
 
 .awesome-line,
-.pricing-line,
-.testimonials-line,
 .design-line,
 .contact-line {
 	height: 2px;
@@ -523,8 +517,6 @@ header .navbar-collapse ul li {
 }
 
 .awesome-text,
-.pricing-text,
-.testimonials-text,
 .design-text,
 .contact-text {
 	color: var(--color-text);
@@ -687,6 +679,9 @@ header .navbar-collapse ul li {
 
 	.picture-text {
 		margin: 0;
+		width: 100%;
+		padding: 0 24px;
+		text-align: justify;
 	}
 
 	.picture-img,
@@ -710,10 +705,6 @@ header .navbar-collapse ul li {
 
 	.home-heading2 {
 		font-size: 2rem;
-	}
-
-	.pricing-box-text {
-		font-size: 0.8rem;
 	}
 
 	.footer-content .social-icons {
@@ -765,14 +756,15 @@ header .navbar-collapse ul li {
 	.home-form-container {
 		margin: 0 auto;
 	}
+
 	.navbar-toggle {
 		margin-right: 24px !important;
 	}
+
 	.home-content,
 	.social-content,
 	.picture-content,
 	.awesome-box-container,
-	.testimonials-box-container,
 	.contact-form,
 	.header-content {
 		flex-direction: column;
@@ -792,6 +784,10 @@ header .navbar-collapse ul li {
 		margin: 0px;
 	}
 
+	.picture-text {
+		padding: 0 18px;
+	}
+
 	.picture-img {
 		width: 100%;
 		margin: 0;
@@ -801,23 +797,14 @@ header .navbar-collapse ul li {
 		width: 100%;
 	}
 
-	.pricing-box-container {
-		flex-direction: column;
-		align-items: center;
-	}
 
-	.pricing-box,
-	.testimonials-box,
 	.form-input-container,
 	.form-textarea-container {
 		width: 100%;
 		margin-bottom: 50px;
 	}
 
-	.pricing-box:last-of-type,
-	.testimonials-box:last-of-type {
-		margin-bottom: 0px;
-	}
+	
 
 	.contact-form {
 		align-items: center;
@@ -874,23 +861,17 @@ header .navbar-collapse ul li {
 	.sublist-content,
 	.picture-content,
 	.awesome-content,
-	.pricing-content,
-	.testimonials-content,
 	.design-content,
 	.contact-content {
 		padding: 40px 0px;
 	}
 
 	.awesome-text,
-	.pricing-text,
-	.testimonials-text,
 	.design-text,
 	.contact-text {
 		margin-bottom: 30px;
 	}
 
-	.pricing-box,
-	.testimonials-box,
 	.form-input-container,
 	.form-textarea-container {
 		width: 100%;
